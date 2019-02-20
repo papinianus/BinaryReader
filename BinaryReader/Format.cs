@@ -6,8 +6,8 @@ namespace BinaryReader
 {
     internal static class Format
     {
-        private const int hex = 16；
-        private const string sep = ”    ”；
+        private const int hex = 16;
+        private const string sep = "    ";
         internal static IEnumerable<string> Lines(IReadOnlyCollection<byte> bytes)
         {
             //            "<8digit><4s>X2 X2 X2 X2 X2 X2 X2 X2 X2 X2 X2 X2 X2 X2 X2 X2<4s><   16 chars   >"
